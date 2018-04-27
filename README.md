@@ -4,50 +4,12 @@
 
 ### [ 算法环境的介绍 ]
 
-```
-cd path/to/project
+通过一个算法将订单分配到不同的车辆中（假设车辆属性完全相同，订单除了时间、日期及地点外，其他也都相同）。
 
-npm install
-```
 
-### [ Run tests ] (Comming soon)
+### [ 实验数据 ]
 
-```
-npm test
-```
 
-### [ Start development environment ]
-
-**Start development with webpack-dev-server:**
-```
-npm run dev
-```
-
-### [ Build front for production ]
-Build without package.json version change. ex: 3.6.11 -> 3.6.11
-```
-npm run build
-```
-Build with main version +1. ex: 3.6.11 -> 4.6.11
-```
-npm run build-major
-```
-Build with minor version +1. ex: 3.6.11 -> 3.7.11
-```
-npm run build-minor
-```
-Build with patch version +1. ex: 3.6.11 -> 3.6.12
-```
-npm run build-patch
-```
-
-### [ Run node server for production ]
-
-```
-npm run start
-```
-
-### [ Generate documentations ]
 
 ```
 npm run doc
