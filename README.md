@@ -15,10 +15,11 @@ INPUT数据包含
 1. 100辆车（车内不含任何订单）
 2. 2792个订单，每个订单拥有不同的起始日期、时间，结束日期、时间，起始地点、结束地点
 
-OUTPUT数据包含
-1. 100辆车，及每辆车中被分配的订单。
+INPUT数据文件为
+1.所有订单数据 ordersOf100FAvV.json
+2.所有车辆数据 unscheduledVehiclesOf100FAvV.json
 
-OUTPUT数据文件为scheduledVehiclesOf100FAvV.json, 其中2792个订单被完美分配到了100辆车中，以天为单位计算的车辆使用率为100%
+"最优解"(不能被证明的)数据文件为 scheduledVehiclesOf100FAvV.json, 其中2792个订单被完美分配到了100辆车中，以天为单位计算的车辆使用率为100%
 
 
 
